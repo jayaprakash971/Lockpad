@@ -1,0 +1,52 @@
+.circles {
+    width: 60px;
+    height: 60px;
+    margin: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "calibri";
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.15);
+    color: #363b5e;
+    float: left;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.circles:active {
+    background: rgba(0, 0, 0, 0.25);
+}
+#phone {
+    background: #e9e9e9;
+    height: 500px;
+    max-width: 300px;
+    margin: 50px auto 100px auto;
+    border: 3px solid #939393;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+}
+input {
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+    letter-spacing: 0.2cm;
+    background: rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    border:none;
+    outline: none;
+}
+
+h1 {
+    color: steelblue;
+    text-align: center;
+    font-size: 50px;
+    font-family: "calibri";
+}
+
+.login-error {
+    color: #901818;
+    background: #ffb3b3;
+}
