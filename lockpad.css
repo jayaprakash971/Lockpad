@@ -30,7 +30,8 @@
 }
 input {
     margin: 20px auto;
-    padding: 5px;
+    padding: 10px;
+    width: 130px;
     text-align: center;
     letter-spacing: 0.2cm;
     background: rgba(0, 0, 0, 0.15);
