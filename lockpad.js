@@ -28,6 +28,7 @@ circles[9].addEventListener("click", function(){
 });
 
 circles[10].addEventListener("click", function(){
+    input.classList.remove("login-error");
     if(st.length<4)
         {
             var n=0;
